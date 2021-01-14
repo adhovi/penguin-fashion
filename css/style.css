@@ -1,0 +1,108 @@
+/* Default Tags CSS Starts Here */
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+header,.bg-nav{
+    background-color: #fff;
+    transition: .5s ease-in-out;
+}
+footer{
+    background-color: #FFFBF0;
+}
+@media(max-width:768px){
+    header,.bg-nav{
+        background-color: #FFFBF0;
+    } 
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size:70px;
+    line-height: 100%;
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size:40px;
+}
+h4{
+    color:#FABE4C;
+    font-size:35px;
+    font-weight: 900;
+}
+h5{
+    color:#363958;
+    font-size: 20px;
+    font-weight: 700;
+}
+h6{
+    color:#363958;
+    font-size: px;
+    font-weight: 500;
+}
+/* Default Tags CSS Ends Here */
+
+
+/* Common CSS Starts Here */
+.container{
+    padding-bottom: 5em;
+}
+.btn-new-style{
+    background-image: linear-gradient( #A4BC46 0%, #85A019 100%);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 15px;
+    cursor: pointer;
+    transition: .4s ease-out;
+    text-align: center;
+}
+.btn-new-style:hover{
+    color:#fff;
+}
+.orange-highlight{
+    color: #FABE4C;
+}
+.shadower{
+    box-shadow: 0px 0px 40px rgba(128, 128, 128, 0.205);
+}
+/* Common CSS Ends Here */
+
+
+/* Navbar CSS Starts Here */
+.nav-container{
+    padding-left: 0em;
+    padding-right: 0em;
+}
+    
+@media (min-width:940px){
+    .nav-container{
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+    
+}
+/* Navbar CSS Ends Here */
+
+
+/*CSS for Card Customization Starts Here */
+.penguin-card,.rounder,.penguin-card-bg{
+    border:0;
+    border-radius: 20px;
+}
+.penguin-card-footer{
+    background-color: #fff;
+    border: 0;
+    padding:0;
+    margin-top: 0;
+}
+/*CSS for Card Customization Ends Here */
+
+/*Service Section CSS Starts Here */
+.service-img{
+    width:70%;
+}
+
+/*Service Section Ends Here */
